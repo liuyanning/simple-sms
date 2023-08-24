@@ -1,0 +1,58 @@
+drondea:
+  channel:
+    chinaMobile:
+      channelNo: 111
+      protocolType: CMPP
+      account: 100502
+      password: ppXVJb
+      ip: 127.0.0.1
+      port: 7891
+      spNumber: 100502
+      channelSize: 1
+      speed: 100
+      serviceId:
+      feeUserType:
+      feeTerminalId:
+      msgSrc:
+    chinaUnicom:
+      no: 123
+      protocolType: CMPP
+      account: 1000001
+      password: 12345
+      ip: 127.0.0.1
+      port: 8080
+      spNumber: 1234
+      channelSize: 1
+      speed: 200
+      serviceId:
+      feeUserType:
+      feeTerminalId:
+      msgSrc:
+    chinaTelecom:
+      no: 345
+      protocolType: CMPP
+      account: 1000001
+      password: 12345
+      ip: 127.0.0.1
+      port: 8080
+      spNumber: 1234
+      channelSize: 1
+      speed: 200
+      serviceId:
+      feeUserType:
+      feeTerminalId:
+      msgSrc:
+  userinfo:
+    users:
+      - userName: 100501
+        spNumber: 100501
+        password: 1234
+        channelLimit: 10
+        qpsLimit: 100
+      - userName: 100502
+        spNumber: 100502
+        password: 1234
+        channelLimit: 10
+        qpsLimit: 100
+
+
